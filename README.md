@@ -7,6 +7,7 @@ pip3 install -r requirements.txt
 
 ## Dataset preparation
 Revise train, val, train_val, test.txt of data folder.
+Our dataset is available here https://drive.google.com/drive/folders/1Xyh_aJZCDGTDpfz0nXOO0BLJGtuwUenX?usp=drive_link
 
 ## Test model
 Test a image from specific directory on the trained model as follows
