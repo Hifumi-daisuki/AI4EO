@@ -27,7 +27,7 @@ Output images will be saved in ./results folder.
 ## Train model
 Start your training procedure.
 ```
-CUDA_VISIBLE_DEVICES="0" python tools/cityscapes/train_bisenetv2_cityscapes.py
+python tools/cityscapes/train_bisenetv2_cityscapes.py
 ```
 
 ## Acknowledgement
