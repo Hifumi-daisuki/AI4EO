@@ -1,6 +1,11 @@
 # OrbitalAI_TelePIX+KIOST
 
 ## Requirements
+- Ubuntu 18.04
+- CUDA 10.0
+- Cudnn 7.6.5
+
+Install dependencies  
 ```
 pip3 install -r requirements.txt
 ```
