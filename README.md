@@ -6,10 +6,13 @@ pip3 install -r requirements.txt
 ```
 
 ## Dataset preparation
+Our dataset is available [here](https://drive.google.com/drive/folders/1Xyh_aJZCDGTDpfz0nXOO0BLJGtuwUenX?usp=drive_link)  
+Put image files in ./data folder.  
 Revise train, val, train_val, test.txt of data folder.  
-Our dataset is available [here](https://drive.google.com/drive/folders/1Xyh_aJZCDGTDpfz0nXOO0BLJGtuwUenX?usp=drive_link)
 
 ## Test model
+Our pretrained weight is available [here](https://drive.google.com/drive/folders/1rkc5AkHkIUofTwEC9-mi9x2_UIl3C1nd?usp=drive_link)  
+Put weight files in ./weights folder.
 Test a image from specific directory on the trained model as follows
 ```
 python tools/cityscapes/test_bisenetv2_cityscapes.py --weights_path ./weights/cityscapes/bisenetv2/cityscapes.ckpt  --src_image_path ./data/val/
