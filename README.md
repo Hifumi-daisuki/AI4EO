@@ -15,7 +15,8 @@ Our pretrained weight is available [here](https://drive.google.com/drive/folders
 Put weight files in ./weights folder.  
 Test a image from specific directory on the trained model as follows
 ```
-python tools/cityscapes/test_bisenetv2_cityscapes.py --weights_path ./weights/cityscapes/bisenetv2/cityscapes.ckpt  --src_image_path ./data/val/
+python tools/cityscapes/test_bisenetv2_cityscapes.py --weights_path ./weights/cityscapes.ckpt  --src_image_path ./data/image/test/
+  --src_image_path ./data/val/
 ```
 
 ## Train model
