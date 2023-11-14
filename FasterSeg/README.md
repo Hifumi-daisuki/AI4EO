@@ -19,7 +19,8 @@ Revise train, val, train_val, test.txt of ./data.
 * Our pretrained weight is already uploaded in ./train/weight0.pt. 
 * Set `C.is_eval = True` in `config_train.py`.
 * Set the name of the searched folder as `C.load_path = "fasterseg"` in `config_train.py`.
-* Our evaluation results is able to download [here](https://drive.google.com/file/d/1MPr5jpCRKrzeptXyH1ogdAhLs2GTNBjT/view?usp=sharing). This folder includes also results images.
+* Our teacher network's evaluation results is able to download [here](https://drive.google.com/file/d/1MPr5jpCRKrzeptXyH1ogdAhLs2GTNBjT/view?usp=sharing). This folder includes also results images. (params = 9.964662MB, FLOPs = 101.666062GB)
+* Our student network's evaluation results is able to download [here](https://drive.google.com/file/d/1VEl2uYh_cQm0ArKuKm2qwsB7a_WvE70r/view?usp=sharing). This folder includes also results images. (params = 2.115750MB, FLOPs = 25.345458GB)
 * Start the evaluation process:
 ```bash
 python train.py
