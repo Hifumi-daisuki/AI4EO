@@ -1,7 +1,8 @@
 # AI4EO_TelePIX
 
-## Updated on 11-14
+## Updated on 11.14
 We add another folder name 'FasterSeg' for new solution.
+The original results is in Bisenet v2 folder.
 In terms of the level of creativity and originality, we designed our own neural network architecture for semnatic segemntation of sargassum by nerual architecture searh.
 
 ### FasterSeg To do list
